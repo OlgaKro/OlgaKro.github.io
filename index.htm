@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <!--[if IE 9]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <![endif]--> 
+      <title>Стоматология ООО "Веста"</title>
+      <meta name="description" content="Лечение кариеса, пульпита, периодонтита. Чистка. Изготовление и фиксация коронок, протезов. Рентген">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="стоматология, Барнаул, зуб, кариес, поставить пломбу, болит зуб, лечить зуб, поставить коронку, протез, снимок зуба, чистка зубов, ООО Веста Барнаул">
+      <!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"> -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <link href="css/jquery.bxslider.css" rel="stylesheet">
+      <!-- <link href="css/font-awesome.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" /> -->
+      <link href="css/main.css" rel="stylesheet">
+      <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+      <link href="css/media.css" rel="stylesheet" media="screen">
+      <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+      <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+      <script type="text/javascript" src="js/jquery.nav.js"></script>
+      <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+      <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+      <script type="text/javascript" src="js/jquery.ba-dotimeout.js"></script>
+      <script type="text/javascript" src="js/jquery.quicksand.js"></script>
+      <!-- <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript" src="js/prefixfree.min.js"></script> -->
+      <script type="text/javascript" src="js/main.js"></script>
+      
+      <link rel="stylesheet" type="text/css" href="leaflet.css">
+      <script type="text/javascript" src="leaflet.js" defer></script>
+
+   </head>
+   <body>
+      <script type="text/javascript">
+         function addMap(){
+               // create a map in the "map" div, set the view to a given place and zoom
+               var map = L.map('mapPlaceHolder').setView([53.373275, 83.674925], 16);
+
+               // add an OpenStreetMap tile layer
+               L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+               }).addTo(map);
+
+// add a marker in the given location, attach some popup content to it and open the popup
+               L.marker([53.37322, 83.67493]).addTo(map)
+               .bindPopup('ООО "Веста"<br>Стоматология<br>Попова, д.50')
+               .openPopup();
+
+         }
+      </script>
+      <script type="text/javascript">
+         var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-59017686-1']);
+         _gaq.push(['_trackPageview']);
+         
+         (function() {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+         
+      </script>
+<div class="sv_settings text-center" id="sv_settings">
+    <span>Размер шрифта
+        <span class="fs-outer">
+            <button class="btn btn-default fs-n" id="fs-n">А</button>
+            <button class="btn btn-default fs-m" id="fs-m">А</button>
+            <button class="btn btn-default fs-l" id="fs-l">А</button>
+        </span>
+    </span>
+
+    <span class="mgl20">Цветовая схема
+        <span class="cs-outer">
+            <button class="btn btn-default cs-bw" id="cs-bw">А</button>
+            <button class="btn btn-default cs-wb" id="cs-wb">А</button>
+            <button class="btn btn-default cs-bb" id="cs-bb">А</button>
+            <button class="btn btn-default cs-gb" id="cs-gb">А</button>
+            <button class="btn btn-default cs-yg" id="cs-yg">А</button>
+        </span>
+    </span>
+
+    <span class="mgl20">Изображения
+        <span class="img-outer">
+            <button class="btn btn-default" id="img-onoff"><span class="glyphicon glyphicon-picture"></span><span id="img-onoff-text"> Отключить</span></button>
+        </span>
+    </span>
+</div>
+      <div id="companyPhotos">
+         <div class="site-slogan">
+            <div class="slogan-inner clearfix">
+               <h2>Стоматология "Веста"</h2>
+               <h2>НАДЕЖНОСТЬ. КАЧЕСТВО. </h2>
+            </div>
+         </div>
+      </div>
+      <!-- END OF HOME -->
+      <div id="home">
+         <div class="wrapper clearfix">
+            <section class="welcome-head row-fluid">
+               <div class="welcome-box row-fluid">
+                  <span class="wc-text-box-1">ООО "Веста"</span>
+                  <!-- <span class="wc-dot-box">dot</span>
+                     <span class="wc-text-box-2">BIZ</span> -->
+               </div>
+               <h3>Стоматологические услуги высокого качества<br/>по приемлемым ценам</h3>
+            </section>
+            <div class="feature-box row-fluid">
+               <p>Наши услуги</p>
+               <div class="feature-list-box row-fluid">
+                  <ul class="feature-list">
+                     <li>
+                        <div class="feature-item">
+                           <div class="feature-text row-fluid">
+                              <h4>Терапевтическая стоматология</h4>
+                              <p>Лечение кариеса, пульпита, периодонтита любой сложности. <br>Снятие зубных отложений,<br>Художественная реставрация.</p>
+                           </div>
+                           <div class="ft-top-box">
+                              <span class="ft-top-icon">
+                                 <!-- <span class="icon-cog feature-icon"></span> -->
+                              </span>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="feature-item">
+                           <div class="feature-text row-fluid">
+                              <h4>Ортопедическая стоматология</h4>
+                              <p>Изготовление и фиксация коронок.
+                                 <br/>
+                                 Изготовление протезов
+                              </p>
+                           </div>
+                           <div class="ft-top-box">
+                              <span class="ft-top-icon">
+                                 <!-- <span class="icon-desktop feature-icon"></span> -->
+                              </span>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="feature-item">
+                           <div class="feature-text row-fluid">
+                              <h4>Цифровая рентгенография</h4>
+                              <p>Рентгендиагностика при заболеваниях полости рта с использованием современного радиовизиографа</p>
+                           </div>
+                           <div class="ft-top-box">
+                              <span class="ft-top-icon">
+                                 <!-- <span class="icon-desktop feature-icon"></span> -->
+                              </span>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- END OF BANNER -->
+      <div id="about">
+         <section class="header-section">
+            <div class="wrapper header-box clearfix">
+               <h2>О КОМПАНИИ</h2>
+               <div class="subtitle clearfix">
+                  <h4>Более 15 лет успешной работы на рынке стоматологических услуг</h4>
+                  <p>ООО "Веста" - это сплоченная команда опытных специалистов. Мы начали свою работу в далеком 1997 году, 
+                     еще в качестве "ЧП". За долгие годы работы мы смогли выработать высокие стандарты обслуживания, которых придерживаемся до сих пор.
+                  </p>
+                  <p>
+                     <br>
+                     Главной ценностью для нас является здоровье наших пациентов, а потому мы стремимся к каждому случаю подходить индивидуально.
+                     Подбор лечения осуществляется на основании многих факторов. Помимо объективных медицинских данных учитываются также личные пожелания клиента.
+                  </p>
+                  <p>
+                     <br>
+                     Большинство наших клиентов - постоянные. ООО "Веста" - это не просто "стоматология поблизости", это надежное медицинское учреждение, в котором с удовольствием лечатся всей семьей.						
+                  </p>
+                  <p>
+                     <br>
+                     Для того, чтобы наши клиенты были спокойны, мы предоставляем гарантию на наши услуги и обеспечиваем соблюдение врачебной тайны согласно <a href="documents/fz323.pdf" target="_blank">Федеральному закону Российской Федерации от 21 ноября 2011 г. N 323-ФЗ</a>. 
+                  </p>
+               </div>
+            </div>
+            <div class="dot-box-bottom">
+               <span class="box-1">
+               <span class="box-2"></span>
+               </span>
+            </div>
+         </section>
+      </div>
+      
+     <div id="company_schedule">
+         <section class="header-section">
+            <div class="wrapper header-box clearfix">
+               <h2>Режим работы</h2>
+               <div class="subtitle clearfix">
+                 <div class="schedule_table three_days_schedule" align="center">
+                  <div class="div_table">
+                     <div class="div_column">
+                        <div class="div_header">пн-пт</div>
+                        <div class="div_cell">
+                           <span class="schedule_time">09:00</span> 
+                           <span class="schedule_time">19:00</span>
+                        </div>
+                     </div>
+                     <div class="div_column">
+                        <div class="div_header">сб</div>
+                        <div class="div_cell">
+                           <span class="schedule_time">09:00</span> 
+                           <span class="schedule_time">14:00</span>
+                           <br/>
+                           <span>по предв. записи</span>
+                        </div>
+                     </div>
+                     <div class="div_column">
+                        <div class="div_header">вс</div>
+                        <div class="div_cell">—</div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+            </div>
+            <div class="dot-box-bottom">
+               <span class="box-1">
+               <span class="box-2"></span>
+               </span>
+            </div>
+         </section>
+      </div>
+ 
+
+      <!-- END OF ABOUT -->
+
+<div id="team">
+   <div class="wrapper clearfix">
+      <div class="row-fluid">
+         <h2 class="team-title">Наши врачи</h2>
+         <p><b>Таранникова Анастасия Олеговна</b> - врач АГМУ 2014г., 
+            <br>специальность - организация здравоохранения и общественное здоровье, 
+            <br>квалификация - организация здравоохранения и общественное здоровье. 
+            <br>Сертификат <i>организация здравоохранения и общественное здоровье</i> продлен до 2019г.</p>
+         <h4 class="centered_text">График работы</h4>
+         <div class="schedule_table two_days_schedule">
+            <div class="div_column">
+               <div class="div_header">вт</div>
+               <div class="div_cell">
+                  <span class="div_time">&nbsp;&nbsp;17:00</span> 
+                  <span class="div_time">19:00</span>
+               </div>
+            </div>
+            <div class="div_column">
+               <div class="div_header">пн., ср-вс</div>
+               <div class="div_cell">—</div>
+            </div>
+         </div>
+         <p><b>Воложанина Татьяна Юрьевна</b> - врач стоматолог - терапевт, ортопед АГМУ, 1997г., 
+<br>специальность - стоматология, квалификация – врач стоматолог.
+<br>Сертификат по стоматологии терапевтической, продлен до 2021г.
+<br>Сертификат по стоматологии ортопедической, продлен до 2017г.</p>
+         <h4 class="centered_text">График работы</h4>
+         <div class="schedule_table three_days_schedule">
+            <div class="div_column">
+               <div class="div_header">пн-пт</div>
+               <div class="div_cell">
+                  <span class="div_time">14:00</span> 
+                  <span class="div_time">19:00</span>
+               </div>
+            </div>
+            <div class="div_column">
+               <div class="div_header">сб</div>
+               <div class="div_cell">
+                  <span class="div_time">9:00</span> 
+                  <span class="div_time">14:00</span>
+                  <span class="div_time">предв. запись</span>
+               </div>
+            </div>
+            <div class="div_column">
+               <div class="div_header">вс</div>
+               <div class="div_cell">—</div>
+            </div>
+         </div>
+        
+         <p><b>Головченко Ольга Валерьевна</b> - ББМК, 1993г.,
+		 <br>специальность - стоматология,
+                 <br>квалификация - зубной врач. 
+                 <br>Сертификат по стоматологии продлен до 2017г.
+         </p>
+         <h4 class="centered_text">График работы</h4>
+         <div class="schedule_table three_days_schedule">
+            <div class="div_column">
+               <div class="div_header">пн-пт</div>
+               <div class="div_cell">
+                  <span class="div_time">9:00</span> 
+                  <span class="div_time">17:00</span>
+               </div>
+            </div>
+            <div class="div_column">
+               <div class="div_header">сб</div>
+               <div class="div_cell">
+                  <span class="div_time">9:00</span> 
+                  <span class="div_time">14:00</span>
+               </div>
+            </div>
+            <div class="div_column">
+               <div class="div_header">вс</div>
+               <div class="div_cell">—</div>
+            </div>
+         </div>
+         
+      </div>
+      <div class="team-box row-fluid">
+         <div class="slider-bottom"></div>
+      </div>
+   </div>
+   <div class="dot-box-bottom">
+      <span class="box-1">
+      <span class="box-2"></span>
+      </span>
+   </div>
+</div> 
+      <!-- END OF ABOUT US -->
+<!--  <div id="service">
+   <section class="header-section">
+      <div class="wrapper header-box clearfix">
+         <h2>Услуги</h2>
+         <div class="subtitle clearfix">
+            <h4>Отбеливание и чистка</h4>
+            <ul>
+               <li>Ультразвуковая чистка</li>
+            </ul>
+            <h4>Пародонтология</h4>
+            <ul>
+               <li>Лечение гингивита</li>
+               <li>Лечение пародонтита</li>
+               <li>Лечение пародонтоза</li>
+               <li>Чистка зубодесневых карманов</li>
+            </ul>
+            <h4>Протезирование</h4>
+            <ul>
+               <li>Бюгельное протезирование</li>
+               <li>Виниры</li>
+			   <li>Коронки</li>
+               <li>Микропротезирование</li>
+               <li>Мостовидные протезы</li>
+               <li>Протезирование на имплантатах</li>
+            </ul>
+            <h4>Терапия</h4>
+            <ul>
+               <li>Лечение каналов</li>
+               <li>Лечение кариеса</li>
+               <li>Лечение пульпита</li>
+               <li>Лечение стоматита</li>
+               <li>Пломбирование</li>
+            </ul>
+         </div>
+      </div>
+      <div class="dot-box-bottom">
+         <span class="box-1">
+         <span class="box-2"></span>
+         </span>
+      </div>
+   </section>
+</div>        -->      <!-- END OF SERVICE -->
+      <div id="pricetable">
+         <section class="header-section">
+            <div class="wrapper header-box clearfix">
+               <h2>Цены</h2>
+               <div class="subtitle clearfix">
+                  <!-- <h4>Внимание!</h4> -->
+                  <p>Цены указаны без учета анестезии.<br>
+                     Стоимость услуг может меняться в зависимости от сложности работ и используемых материалов.<br>
+                     Приведенный прайс-лист публичной офертой не является и служит исключительно в ознакомительных целях.
+                  </p>
+				  
+               </div>
+               <h3>Терапевтическая стоматология</h3>
+               <table align="center" class="price">
+                  <tr class="price-header">
+                     <td class="price-header-text left-column">Наименование услуги</td>
+                     <td class="price-header-text right-column">Цена (в рублях)</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Консультация</td>
+                     <td class="price-line-text right-column">Бесплатно</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Анестезия</td>
+                     <td class="price-line-text right-column">от 200</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Избирательное пришлифовывание</td>
+                     <td class="price-line-text right-column">50</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Распломбирование канала</td>
+                     <td class="price-line-text right-column">от 350</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Удаление пломбы</td>
+                     <td class="price-line-text right-column">250</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Оказание неотложной помощи</td>
+                     <td class="price-line-text right-column">500</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Подготовка зуба к протезированию</td>
+                     <td class="price-line-text right-column">от 1500</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Снятие зубных отложений</td>
+                     <td class="price-line-text right-column">от 750</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Глубокое фторирование эмали</td>
+                     <td class="price-line-text right-column">200</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Пломбирование канала</td>
+                     <td class="price-line-text right-column">от 300</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Мед.обработка канала</td>
+                     <td class="price-line-text right-column">от 200</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Кариес</td>
+                     <td class="price-line-text right-column">от 700</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Пульпит</td>
+                     <td class="price-line-text right-column">от 1500</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Периодонтит</td>
+                     <td class="price-line-text right-column">от 1600</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Реставрация</td>
+                     <td class="price-line-text right-column">от 3000</td>
+                  </tr>
+               </table>
+               <h3>Ортопедическая стоматология</h3>
+               <table align="center" class="price">
+                  <tr class="price-header">
+                     <td class="price-header-text left-column">Наименование услуги</td>
+                     <td class="price-header-text right-column">Цена (в рублях)</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Коронка</td>
+                     <td class="price-line-text right-column">от 1000</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Протез</td>
+                     <td class="price-line-text right-column">от 3500</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Вкладка культевая</td>
+                     <td class="price-line-text right-column">от 800</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Фиксатор “Атачмен-Рейн”</td>
+                     <td class="price-line-text right-column">от 1200</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Снятие коронки</td>
+                     <td class="price-line-text right-column">от 150</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Фиксация коронки</td>
+                     <td class="price-line-text right-column">от 150</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">Оттиск</td>
+                     <td class="price-line-text right-column">от 200</td>
+                  </tr>
+               </table>
+               <h3>Цифровая рентгенография</h3>
+               <table align="center" class="price">
+                  <tr class="price-header">
+                     <td class="price-header-text left-column">Наименование услуги</td>
+                     <td class="price-header-text right-column">Цена (в рублях)</td>
+                  </tr>
+                  <tr class="price-line">
+                     <td class="price-line-text left-column">R-снимок</td>
+                     <td class="price-line-text right-column">от 200</td>
+                  </tr>
+               </table>
+               <div align="center" class="note">
+			   <h5>Уважаемые пациенты!</h5>
+			   <p align="center">
+			   Стоматологическая фирма ООО "Веста" оказывает платные услуги по стоматологии терапевтической, 
+			   стоматологии ортопедической в соответствии с 
+			   <a href="documents/1006.pdf" target="_blank">Постановлением Правительства Российской Федерации от 4 октября 2012 г. № 1006</a> и <a href="documents/order1496n.pdf" target="_blank">Приказом Минздравсоцразвития России № 1496 от 7 декабря 2011г.</a> 
+			   <br><br>
+			   ООО "Веста" не оказывает услуги по территориальной программе государственных гарантий. С перечнем организаций, работающих по ТПГГ можно ознакомиться в <a href="documents/Prilozhenie1.pdf" target="_blank">Приложении 1 к Постановлению Администрации края от 17 декабря 2013 г. N 655</a> 
+				<br><br>
+			   <span class="content">Ближайший пункт оказания  помощи  по ТПГГ -  ул. Попова, 6 (КГБУЗ "Стоматологическая поликлиника №2")</span> 
+			   </p>
+			   <!-- -->
+				 <!--  <p>Условия, порядок, форма предоставления медицинских услуг согласно <a href="documents/order1496n.pdf" target="_blank">Приказу Минздравсоцразвития России №1496н от 7 декабря 2011г.</a></p>
+             -->
+				</div>
+			 </div>
+            <div class="dot-box-bottom" <span class="box-1">
+               <span class="box-2"></span>
+               </span>
+            </div>
+         </section>
+      </div>
+      <div id="work">
+         <section class="header-section">
+            <div class="wrapper header-box clearfix">
+               <h2>Информация об исполнителе и услугах</h2>
+			   
+               <div id="licinfo" class="subtitle clearfix">
+				  <h4>Директор</h4>
+			      <p>Кротова О.В, действующая на основании Устава.</p>
+                  <h4>Сведения о внесении в ЕГРЮЛ</h4>
+                  <div align="center">
+                     <a href="documents\EGRUL.jpg" target="_blank"><img src="documents\EGRUL_thumb.jpg"></a>
+                  </div>
+                  <h4>Сведения о лицензии</h4>
+                  <div align="center">
+                     <a href="documents\lic.jpg" target="_blank"><img src="documents\lic_thumb.jpg"></a>          
+				     <a href="documents\licenseInfo.jpg" target="_blank"><img src="documents\licenseInfo_thumb.jpg"></a>					 
+                     <a href="documents\lic_application.jpg" target="_blank"><img src="documents\lic_application_thumb.jpg"></a>
+                     
+                  </div>
+				  <!--<h4>Нормативные документы</h4>
+				  <p><a href="documents/order1496n.pdf" target="_blank">Приказ Минздравсоцразвития России № 1496 от 7 декабря 2011г.</a> (.pdf, 792kB)</p>
+				  <p><a href="documents/1006.pdf" target="_blank">Постановление Правительства Российской Федерации от 4 октября 2012 г. № 1006</a> (.pdf, 232kB)</p>
+				  <p><br><a href="documents/Prilozhenie1.pdf" target="_blank">Приложение 1 к Постановлению Администрации края от 17 декабря 2013 г. N 655</a> (.pdf, 1.05MB)</p>
+				   <p><a href="documents/prav-932.pdf" target="_blank">Постановление Правительства Российской Федерации от 18 октября 2013 г. N 932</a></p> -->
+                  <h4>Контролирующие организации</h4>
+                  <p><a href="documents\supervisers.pdf" target="_blank">Контактная информация</a></p>
+               </div>
+            </div>
+            <div class="dot-box-bottom">
+               <span class="box-1">
+               <span class="box-2"></span>
+               </span>
+            </div>
+         </section>
+      </div>
+      <!-- END OF WORK SECTION -->
+      <!--
+         <div id="news">
+         	<section class="header-section">
+         	    <div class="wrapper header-box clearfix">
+         	        <h2>Контролирующие организации</h2>
+         	        <div class="subtitle clearfix">
+         	            <h4>READ THE NEWS ABOUT US</h4>
+         	            <p>Ntum sit amet condim entum eu justo. Suspendisse in ante.Cras pede. Quisque tellus nulla facilisis et mattis id consectetuer vel nunc. Donec non sapien malesu ada pede ullamcorper molestie. Nullam porta felis fringilla nisl. Suspendisse mi.</p>
+         	        </div>
+         			<ul style="list-style-type:none">
+         				<li>
+         					<div class="control-item">
+         						<h4>Управление Росздравнадзора по Алтайскому краю</h4>
+         						<p><b>Адрес: </b>г. Барнаул, пр. Ленина, 145<br><br><b>телефон: </b>62-32-16<br><b>телефон: </b>62-27-95</p>
+         					</div>
+         				</li>
+         				<li>
+         					<div class="control-item">
+         						<h4>Управление Роспотребнадзора по Алтайскому краю</h4>
+         						<p><b>Адрес: </b>г. Барнаул, ул. Максима Горького, 28<br><br><b>телефон: </b>24-29-96</p>
+         					</div>
+         				</li>
+         				<li>
+         					<div class="control-item">
+         						<h4>Главное Управление Алтайского края по здравоохранению и фармацевтической деятельности</h4>
+         						<p><b>Адрес: </b>г. Барнаул, пр. Красноармейский, 95а<br><br><b>телефон: </b>62-77-66</p>
+         					</div>
+         				</li>
+         				<li>
+         					<div class="control-item">
+         						<h4>Комитет по защите прав потребителей</h4>
+         						<p><b>Адрес: </b>г. Барнаул, ул. Максима Горького, 28<br><br><b>телефон: </b>24-29-96</p>
+         					</div>
+         				</li>
+         			</ul>
+         	    </div>
+         	    <div class="dot-box-bottom">
+         	        <span class="box-1">
+         	            <span class="box-2"></span>
+         	        </span>
+         	    </div>
+         	</section>
+         </div> -->
+      <!-- END OF NEWS SECTION -->
+      <div id="contact">
+         <section class="header-section">
+            <div class="wrapper header-box clearfix">
+               <h2>Контакты</h2>
+               <div class="subtitle clearfix">
+                  <h4>Контактная информация</h4>
+                  <p>Запись на прием по тел. 69-91-71, 8-902-998-91-71<br>Электронная почта: vestastom@yandex.ru</p>
+               </div>
+            </div>
+            <div class="dot-box-bottom">
+               <span class="box-1">
+               <span class="box-2"></span>
+               </span>
+            </div>
+         </section>
+         <div class="contact-box row-fluid">
+            <div class="wrapper clearfix">
+               <div class="address-box row-fluid">
+                  <div class="marker" align="center">                     
+                  </div>
+                  <p>Общество с ограниченной ответственностью "Веста"</p>
+                  <p>656044, Алтайский край, г. Барнаул, ул. Попова, д. 50.</p>
+                  <!-- <ul class="social-icon">
+                     <li><a href="#" class="icon" target="_blank">&#xe0f7;</a></li>
+                     <li><a href="#" class="icon" target="_blank">&#xe0f5;</a></li>
+                     <li><a href="#" class="icon" target="_blank">&#xe0fc;</a></li>
+                     <li><a href="#" class="icon" target="_blank">&#xe102;</a></li>
+                     <li><a href="#" class="icon" target="_blank">&#xe10c;</a></li>
+                     <li><a href="#" class="icon" target="_blank">&#xe0fa;</a></li>
+                     </ul> -->
+               </div>
+               <p align="center">Расположение</p>
+               <div id="mapPlaceHolder"></div>
+               <!-- <div class="contact-frm-box clearfix">
+                  <form id="contactForm" action="http://enfusionthemes.com/demo/lp/dotbiz/no-parallax/mail.php" name="input" method="post">
+                      <div class="row-fluid">
+                          <input type="text" id="formName" class="input-box" name="name" placeholder="NAME*" value=""/>
+                          <input type="text" id="formEmail" class="input-box-2" name="email" placeholder="EMAIL*" value=""/>
+                      </div>
+                      <div class="row-fluid">
+                          <input type="text" class="input-box" name="phone" placeholder="PHONE" value=""/>
+                          <input type="text" class="input-box-2" name="website" placeholder="WEBSITE" value=""/>
+                      </div>
+                      <div class="row-fluid">
+                          <textarea name="message" id="message" placeholder="MESSAGE"></textarea>
+                      </div>
+                      <div class="error-holder">
+                          <p id="error-name"><span><i class="icon-off"></i></span>Please Enter Your Name</p>
+                          <p id="error-email"><span><i class="icon-off"></i></span>Please Enter Your Valid Email</p>
+                          <p id="error-sms"><span><i class="icon-off"></i></span>Please Write Message</p>
+                          <p id="failed"><span><i class="icon-off"></i></span>Email was not sent.</p>
+                      </div>
+                      <div class="row-fluid">
+                          <input id="formSubmit" type="submit" class="sttyc" name="submit" value="SEND">
+                      </div>
+                      </form>
+                      <h2 id="success">Email Sent Successfully</h2>
+                  </div> -->
+            </div>
+         </div>
+      </div>
+      <!-- END OF CONTACT -->
+      <footer id="footer">
+         <div class="wrapper clearfix">
+            <div class="footer-box">
+               <!--<span class="ft-dot-box">©</span>-->
+               <div class="ft-text-box">                   
+                   <p>© vestadent.ru 2017</p>
+               </div>
+               </div>
+         </div>
+      </footer>
+      <div id="main-nav" class="clearfix">
+         <div class="wrapper clearfix">
+            <div class="clearfix">
+               <!--                     <a class="scroll siteLogo" href="#banner">
+                  <span class="wc-dot-box">dot</span>
+                  <span class="wc-text-box-2">BIZ</span>
+                  </a> -->
+               <ul class="navigation hidden-phone">
+                  <li><a class="scroll" href="#companyPhotos">Главная</a></li>
+                  <li><a class="scroll" href="#home">О Компании</a></li>                                    
+                  <li><a class="scroll" href="#company_schedule">Режим работы</a></li>
+                  <!-- <li><a class="scroll" href="#service">Услуги</a></li> -->
+                  <li><a class="scroll" href="#pricetable">Цены</a></li>
+                  <li><a class="scroll" href="#work">Сведения</a></li>
+                  <li><a class="scroll" href="#contact">Контакты</a></li>
+		  <li><a href="#" id="sv_on"><strong>Версия для слабовидящих</strong></a></li>
+               </ul>
+               <div class="mini-navigation visible-phone ">
+                  <button class="btn nav-toggole" type="button">
+                  <span><i class="icon-align-justify"></i></span>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="clearfix hidden-desktop hidden-tablet">
+            <ul class="phone-menu">
+               <li><a class="scroll" href="#companyPhotos">Главная</a></li>
+               <li><a class="scroll" href="#home">О Компании</a></li>
+               <li><a class="scroll" href="#company_schedule">Режим работы</a></li>
+               <!-- <li><a class="scroll" href="#service">Услуги</a></li>  -->               
+               <li><a class="scroll" href="#pricetable">Цены</a></li>
+               <li><a class="scroll" href="#work">Сведения</a></li>
+               <li><a class="scroll" href="#contact">Контакты</a></li>
+	       <li><a href="#" id="sv_on"><strong>Версия для слабовидящих</strong></a></li>
+            </ul>
+         </div>
+      </div>
+   </body>
+</html>
